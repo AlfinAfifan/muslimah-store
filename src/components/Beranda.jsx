@@ -19,8 +19,8 @@ const Beranda = () => {
         <h1 className="py-10">Discount</h1>
 
         {/* CARD */}
-        <div className="grid grid-cols-3 gap-x-24 gap-y-28">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+        <div className="grid grid-cols-3 gap-x-16 gap-y-28">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product1} alt="Shoes" />
             </figure>
@@ -34,7 +34,7 @@ const Beranda = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product2} alt="Shoes" />
             </figure>
@@ -48,7 +48,7 @@ const Beranda = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product3} alt="Shoes" />
             </figure>
@@ -61,7 +61,7 @@ const Beranda = () => {
               <p className="font-normal text-sm mt-5 text-gray-500">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product4} alt="Shoes" />
             </figure>
@@ -75,7 +75,7 @@ const Beranda = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product5} alt="Shoes" />
             </figure>
@@ -89,7 +89,7 @@ const Beranda = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product6} alt="Shoes" />
             </figure>

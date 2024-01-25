@@ -24,8 +24,8 @@ const Produk = () => {
       <Navbar />
       <div className="px-40 mt-40">
         <h1 className="text-4xl font-semibold text-center mt-20">Dress</h1>
-        <div className="grid grid-cols-3 gap-x-24 gap-y-28 mt-10">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+        <div className="grid grid-cols-3 gap-x-16 gap-y-28 mt-10">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product1} alt="Shoes" />
             </figure>
@@ -39,7 +39,7 @@ const Produk = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product2} alt="Shoes" />
             </figure>
@@ -53,7 +53,7 @@ const Produk = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product3} alt="Shoes" />
             </figure>
@@ -66,7 +66,7 @@ const Produk = () => {
               <p className="font-normal text-sm mt-5 text-gray-500">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product4} alt="Shoes" />
             </figure>
@@ -80,7 +80,7 @@ const Produk = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product5} alt="Shoes" />
             </figure>
@@ -94,7 +94,7 @@ const Produk = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={product6} alt="Shoes" />
             </figure>
@@ -111,8 +111,8 @@ const Produk = () => {
 
         {/* ACCESSORIES */}
         <h1 className="text-4xl font-semibold text-center mt-20">Accessories</h1>
-        <div className="grid grid-cols-4 gap-x-24 mt-10">
-          <div className="card card-compact w-72 bg-base-100 shadow-xl cursor-pointer rounded-none">
+        <div className="grid grid-cols-4 gap-x-10 mt-10">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={acc1} alt="Shoes" />
             </figure>
@@ -125,7 +125,7 @@ const Produk = () => {
               <p className="font-normal text-sm mt-5 text-gray-500">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div className="card card-compact w-72 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={acc2} alt="Shoes" />
             </figure>
@@ -138,7 +138,7 @@ const Produk = () => {
               <p className="font-normal text-sm mt-5 text-gray-500">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div className="card card-compact w-72 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={acc3} alt="Shoes" />
             </figure>
@@ -151,7 +151,7 @@ const Produk = () => {
               <p className="font-normal text-sm mt-5 text-gray-500">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div className="card card-compact w-72 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={acc4} alt="Shoes" />
             </figure>
@@ -168,8 +168,8 @@ const Produk = () => {
         {/* END ACCESORIS */}
 
         <h1 className="text-4xl font-semibold text-center mt-20">Hijab</h1>
-        <div className="grid grid-cols-3 gap-x-24 gap-y-28 mt-10">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+        <div className="grid grid-cols-3 gap-x-16 gap-y-28 mt-10">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={jilbab1} alt="Shoes" />
             </figure>
@@ -183,7 +183,7 @@ const Produk = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={jilbab2} alt="Shoes" />
             </figure>
@@ -197,7 +197,7 @@ const Produk = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={jilbab3} alt="Shoes" />
             </figure>
@@ -210,7 +210,7 @@ const Produk = () => {
               <p className="font-normal text-sm mt-5 text-gray-500">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={jilbab4} alt="Shoes" />
             </figure>
@@ -224,7 +224,7 @@ const Produk = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={jilbab5} alt="Shoes" />
             </figure>
@@ -238,7 +238,7 @@ const Produk = () => {
             </div>
           </div>
 
-          <div className="card card-compact w-96 bg-base-100 shadow-xl cursor-pointer rounded-none">
+          <div className="card card-compact w-full bg-base-100 shadow-xl cursor-pointer rounded-none">
             <figure>
               <img src={jilbab6} alt="Shoes" />
             </figure>
